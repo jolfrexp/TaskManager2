@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="-12dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="161dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="23dp"
+        android:text="User"
+        android:textColor="#845ec2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <LinearLayout
+        android:layout_width="229dp"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="359dp">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#845ec2"
+            android:text="Add task"
+            android:textColor="#008b74" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#845ec2"
+            android:text="Modify task"
+            android:textColor="#008b74" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="229dp"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="411dp">
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#845ec2"
+            android:text="Delete task"
+            android:textColor="#008b74" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#845ec2"
+            android:text="View task"
+            android:textColor="#008b74" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/admlogo"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task manager"
+        android:textColor="#845ec2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="#008b74"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:textColor="#008b74"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
