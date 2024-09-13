@@ -9,33 +9,26 @@
     tools:layout_editor_absoluteX="4dp"
     tools:layout_editor_absoluteY="-12dp">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="129dp"
-        android:layout_height="127dp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="161dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="129dp"
-        android:layout_height="23dp"
-        android:text="User"
+        android:id="@+id/editextUser"
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:text="Usuario"
         android:textColor="#845ec2"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="288dp" />
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="229dp"
-        android:layout_height="52dp"
+        android:layout_height="61dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="359dp">
+        tools:layout_editor_absoluteY="343dp">
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/AT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -44,7 +37,7 @@
             android:textColor="#008b74" />
 
         <Button
-            android:id="@+id/button25"
+            android:id="@+id/btnMT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -54,14 +47,15 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="229dp"
-        android:layout_height="52dp"
+        android:layout_height="61dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="411dp">
+        tools:layout_editor_absoluteY="404dp">
 
         <Button
-            android:id="@+id/button26"
+            android:id="@+id/btnDT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -70,7 +64,7 @@
             android:textColor="#008b74" />
 
         <Button
-            android:id="@+id/button27"
+            android:id="@+id/btnVT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -81,11 +75,11 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="128dp"
-        android:layout_height="114dp"
+        android:layout_width="131dp"
+        android:layout_height="61dp"
         app:srcCompat="@drawable/admlogo"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="217dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -94,25 +88,25 @@
         android:text="Task manager"
         android:textColor="#845ec2"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="122dp" />
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/btnCA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exit"
+        android:text="Close app"
         android:textColor="#008b74"
         tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="564dp" />
+        tools:layout_editor_absoluteY="565dp" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/btnLG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Return"
+        android:text="Log out"
         android:textColor="#008b74"
         tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="564dp" />
+        tools:layout_editor_absoluteY="565dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

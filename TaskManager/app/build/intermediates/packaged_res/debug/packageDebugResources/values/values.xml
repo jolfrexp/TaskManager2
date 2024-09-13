@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AdministradorDeTareas</string>
+    <string name="btn_dos">Registro</string>
+    <string name="btn_uno">Inicio sesion</string>
+    <style name="Base.Theme.AdministradorDeTareas" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AdministradorDeTareas" parent="Base.Theme.AdministradorDeTareas"/>
+</resources>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AdministradorDeTareas</string>
+    <string name="btn_uno">Inicio sesion</string>
+    <string name="btn_dos">Registro</string>
 </resources>
